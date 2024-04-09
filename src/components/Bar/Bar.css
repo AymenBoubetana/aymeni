@@ -1,0 +1,100 @@
+.Bar{
+  max-height: 100vh;
+  background-color: #F0F4F9;
+  overflow: hidden;
+}
+.Bar img.bar{
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+  cursor: pointer;
+}
+.all{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 20px;
+  
+}  
+.all img{
+  width:26px;
+
+}
+.chat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.chat .plus{
+  width:20px;
+  height: 20px;
+}
+.active{
+  background-color:#E6EAF1;
+  border-radius: 50px;
+  padding: 10px;
+  height: 20px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  height: 20px;
+  cursor: pointer;
+  padding-right: 40px;
+}
+.row img{
+  width: 22px;
+}
+.row:hover{
+  background-color:#E6EAF1;
+  border-radius: 50px;
+
+
+}
+.help{
+  margin-right: 18px;
+}
+.messages{
+  display: flex;
+  height: 200px;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: start;
+}
+.messages::-webkit-scrollbar{
+  display: none;
+}
+@media  (max-width: 600px) {
+  .Bar{
+    display: none;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
